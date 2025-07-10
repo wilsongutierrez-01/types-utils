@@ -1,3 +1,7 @@
 export * from "./deep/DeepPartial"
 export * from "./deep/DeepReadonly"
 export * from "./flatten/Flatten"
+export * from "./transform/Split"
+export * from "./transform/BuildPath"
+export * from "./transform/MergeAll"
+export * from "./transform/CreateHandlers"
