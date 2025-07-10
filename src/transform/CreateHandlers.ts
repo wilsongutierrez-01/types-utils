@@ -1,5 +1,5 @@
 export type CreateHandlers<T extends string> = {
-  [K in T as `on${Capitalize<K & string>}`]: () => void
+  [K in T as `on${Capitalize<K & string>}`]: () => void;
 }
 
 /*
