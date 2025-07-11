@@ -9,7 +9,7 @@ A collection of advanced types in TypeScript that help you manipulate, transform
 ## 📦Installation
 
 ``` tap
-npm install helper types
+npm install types-helpers
 ```
 
 ---
