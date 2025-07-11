@@ -1,16 +1,14 @@
 {
-  "name": "type-utils",
+  "name": "types-helpers",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Librería de utilidades avanzadas para tipos en TypeScript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "devDependencies": {
-    "typescript": "^5.8.3"
-  }
+  "keywords": ["typescript", "types", "helpers", "advanced-types", "utility-types"],
+  "author": "Wilson Gutiérrez",
+  "license": "MIT"
 }

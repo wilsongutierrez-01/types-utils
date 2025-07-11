@@ -19,11 +19,11 @@ export function Validate<T>(
       }
     }
 
-    const validator = validators[key]
+    const validator = validators[key];
     if (typeof validator === "function") {
-      results[key] = validator(currentValue)
+      results[key] = validator(currentValue);
     } else {
-      results[key] = false
+      results[key] = false;
     }
   }
 

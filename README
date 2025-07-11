@@ -1,0 +1,81 @@
+# 🧠 helper types
+
+A collection of advanced types in TypeScript that help you manipulate, transform, and validate complex type structures in a safe and expressive way.
+
+> 🌟 Ideal for form-based architectures, deep validation, object flattening, type manipulation, and more.
+
+---
+
+## 📦Installation
+
+``` tap
+npm install helper types
+```
+
+---
+## 🚀 Quick Use
+```ts
+import {
+  Flat,
+  DeepReadonly,
+} from "types-helpers"
+```
+
+This is an example for Flat:
+
+```ts
+type Entry = {
+  usuario: {
+    nombre: string;
+    edad: number;
+  };
+  direccion: {
+    ciudad: string;
+  };
+};
+
+type result = Flat<Entry>;
+```
+
+---
+
+## 📁 API structure
+
+```
+types-helpers/
+├── deep/
+│ ├── DeepPartial
+│ └── DeepReadonly
+├── flatten/
+│ ├── Flat
+│ ├── Flatten
+│ ├── FilterFlat
+│ └── IsPrimitive
+├── transform/
+│ ├── Split
+│ ├── BuildPath
+│ ├── MergeAll
+│ └── Create handlers
+├── validators/
+│ ├── Validate
+│ └── Validators
+```
+
+---
+
+## 📜 License
+
+MIT © 2025 Wilson Gutiérrez
+
+---
+
+## 🤝 Contributions
+
+Pull requests and suggestions are welcome!
+Help us continue improving this useful library for the entire TypeScript community. 🙌
+
+---
+
+## ⭐ Credits
+
+Created with ❤️ by [Wilson Gutiérrez](https://github.com/wilsongutierrez-01)
